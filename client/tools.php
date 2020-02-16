@@ -1,48 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    
-    <!-- project style sheet -->
-    <link rel="stylesheet" href="/styles/style.css">
-    
-    <!-- Stylesheets for Tables -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
-</head>
+<?php
+$folder = 1;
+$page = 'tools';
 
-<body>
+DEFINE('PAGE_TITLE','Home');
+require_once('../header.php');
+?>
 
-    <!-- business Title -->
-    <div id="header_0">
-        Tool Rental System
-    </div>
-
-    <!-- login and Sign Up-->
-    <ul id="login_table">
-        <li>
-            <div class="login_table_item">
-                Login
-            </div>
-        </li>
-        <li>
-            <div class="login_table_item">
-                Sign Up
-            </div>
-        </li>
-    </ul>
-
-    <!-- navigation Menu -->
-    <div class="navbar">
-        <ul class="nav_menu">
-            <li class="nav_item">
-                <a href="/index.html">Home</a>
-            </li>
-            <li class="nav_item">
-                <a class="active" href="/tools.html">Tools</a>
-            </li>
-        </ul>
-    </div>
 
     <!-- table for viewing available tools -->
     <div class="standard_color">
